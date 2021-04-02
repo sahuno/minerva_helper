@@ -1,0 +1,2 @@
+SyntaxError in line 26 of /sc/arion/projects/canan/toolbox/scripts/minerva_helper/demultiplex_fastq_snakeMake/demultiplex_fastq.smk:
+Command must be given as string after the shell keyword. (demultiplex_fastq.smk, line 26)

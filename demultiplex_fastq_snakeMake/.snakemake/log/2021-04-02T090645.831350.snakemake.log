@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	2	demultiplex_fastq
+	3
+
+[Fri Apr  2 09:06:45 2021]
+rule demultiplex_fastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/test_pipelines/SC173866_CTGGCATA_L004_R1_001_HQ_paired.fastq.gz
+    output: results/SC173866_CTGGCATA_L004_R1_001_HQ_paired/SC173866_CTGGCATA_L004_R1_001_HQ_paired.fastq
+    log: logs/demultiplex_fastq/SC173866_CTGGCATA_L004_R1_001_HQ_paired_demultiplexed_fastq.txt
+    jobid: 2
+    wildcards: samples=SC173866_CTGGCATA_L004_R1_001_HQ_paired
+
+RuleException in line 18 of /sc/arion/projects/canan/toolbox/scripts/minerva_helper/demultiplex_fastq_snakeMake/demultiplex_fastq.smk:
+NameError: The name 'samples' is unknown in this context. Did you mean 'wildcards.samples'?
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 133, in run_jobs
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 907, in run
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 701, in _run
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 221, in _run
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 149, in _run
+  File "/hpc/packages/minerva-centos7/py_packages/3.7/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 155, in printjob

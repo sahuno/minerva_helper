@@ -13,7 +13,7 @@
 
 ## how to run is give it path containg fastq and they will be demultiplex, compress after wards and aling with approaproatet read groups
 #fastq_dir=$1 #use this interactive mode
-fastq_dir=/sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/
+fastq_dir=/sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Tumor/
 #line=/sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/test_pipelines/SC173887_AACTCACC_L001_R1_001_HQ_paired.fastq.gz
 
 
