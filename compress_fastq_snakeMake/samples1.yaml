@@ -1,0 +1,9 @@
+#samples.yaml for fastq_to_bam_paired.snakefile
+#Anna Hoge
+#Template made October 18th, 2019
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+samples:
+    SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq
+    SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq

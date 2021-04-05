@@ -1,0 +1,669 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 50
+Job counts:
+	count	jobs
+	1	all
+	227	compressfastq
+	228
+
+[Fri Apr  2 05:35:26 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173869_ACAAGCTA_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173869_ACAAGCTA_L001_R2_001_HQ_paired.lane.1.fastq/SC173869_ACAAGCTA_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173869_ACAAGCTA_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 30
+    wildcards: samples=SC173869_ACAAGCTA_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 30 with external jobid 'Job <29558944> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:26 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173862_TGGTGGTA_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173862_TGGTGGTA_L001_R1_001_HQ_paired.lane.1.fastq/SC173862_TGGTGGTA_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173862_TGGTGGTA_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 75
+    wildcards: samples=SC173862_TGGTGGTA_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 75 with external jobid 'Job <29558945> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:26 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8480T_R2.lane.2.fastq
+    output: results/8480T_R2.lane.2.fastq/8480T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/8480T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 180
+    wildcards: samples=8480T_R2.lane.2.fastq
+
+Submitted job 180 with external jobid 'Job <29558946> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:26 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173895_AGGCTAAC_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173895_AGGCTAAC_L001_R1_001_HQ_paired.lane.1.fastq/SC173895_AGGCTAAC_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173895_AGGCTAAC_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 121
+    wildcards: samples=SC173895_AGGCTAAC_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 121 with external jobid 'Job <29558947> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:26 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173866_CTGGCATA_L005_R2_001_HQ_paired.lane.5.fastq
+    output: results/SC173866_CTGGCATA_L005_R2_001_HQ_paired.lane.5.fastq/SC173866_CTGGCATA_L005_R2_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173866_CTGGCATA_L005_R2_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 77
+    wildcards: samples=SC173866_CTGGCATA_L005_R2_001_HQ_paired.lane.5.fastq
+
+Submitted job 77 with external jobid 'Job <29558948> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:27 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173862_TGGTGGTA_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173862_TGGTGGTA_L001_R2_001_HQ_paired.lane.1.fastq/SC173862_TGGTGGTA_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173862_TGGTGGTA_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 47
+    wildcards: samples=SC173862_TGGTGGTA_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 47 with external jobid 'Job <29558949> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:27 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173855_ACGTATCA_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173855_ACGTATCA_L001_R1_001_HQ_paired.lane.1.fastq/SC173855_ACGTATCA_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173855_ACGTATCA_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 212
+    wildcards: samples=SC173855_ACGTATCA_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 212 with external jobid 'Job <29558950> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:27 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173887_AACTCACC_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173887_AACTCACC_L001_R1_001_HQ_paired.lane.1.fastq/SC173887_AACTCACC_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173887_AACTCACC_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 123
+    wildcards: samples=SC173887_AACTCACC_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 123 with external jobid 'Job <29558951> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:27 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173855_ACGTATCA_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173855_ACGTATCA_L001_R2_001_HQ_paired.lane.1.fastq/SC173855_ACGTATCA_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173855_ACGTATCA_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 198
+    wildcards: samples=SC173855_ACGTATCA_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 198 with external jobid 'Job <29558952> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:27 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173869_ACAAGCTA_L008_R1_001_HQ_paired.lane.8.fastq
+    output: results/SC173869_ACAAGCTA_L008_R1_001_HQ_paired.lane.8.fastq/SC173869_ACAAGCTA_L008_R1_001_HQ_paired.lane.8.fastq.gz
+    log: logs/compressfastq/SC173869_ACAAGCTA_L008_R1_001_HQ_paired.lane.8.fastq_compressfastq.txt
+    jobid: 213
+    wildcards: samples=SC173869_ACAAGCTA_L008_R1_001_HQ_paired.lane.8.fastq
+
+Submitted job 213 with external jobid 'Job <29558953> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8480T_R1.lane.2.fastq
+    output: results/8480T_R1.lane.2.fastq/8480T_R1.lane.2.fastq.gz
+    log: logs/compressfastq/8480T_R1.lane.2.fastq_compressfastq.txt
+    jobid: 5
+    wildcards: samples=8480T_R1.lane.2.fastq
+
+Submitted job 5 with external jobid 'Job <29558954> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173883_CAGCGTTA_L004_R1_001_HQ_paired.lane.4.fastq
+    output: results/SC173883_CAGCGTTA_L004_R1_001_HQ_paired.lane.4.fastq/SC173883_CAGCGTTA_L004_R1_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173883_CAGCGTTA_L004_R1_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 35
+    wildcards: samples=SC173883_CAGCGTTA_L004_R1_001_HQ_paired.lane.4.fastq
+
+Submitted job 35 with external jobid 'Job <29558955> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8515T_R1.lane.2.fastq
+    output: results/8515T_R1.lane.2.fastq/8515T_R1.lane.2.fastq.gz
+    log: logs/compressfastq/8515T_R1.lane.2.fastq_compressfastq.txt
+    jobid: 140
+    wildcards: samples=8515T_R1.lane.2.fastq
+
+Submitted job 140 with external jobid 'Job <29558956> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173867_ATTGGCTC_L004_R1_001_HQ_paired.lane.4.fastq
+    output: results/SC173867_ATTGGCTC_L004_R1_001_HQ_paired.lane.4.fastq/SC173867_ATTGGCTC_L004_R1_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173867_ATTGGCTC_L004_R1_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 51
+    wildcards: samples=SC173867_ATTGGCTC_L004_R1_001_HQ_paired.lane.4.fastq
+
+Submitted job 51 with external jobid 'Job <29558958> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173870_CATCAAGT_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173870_CATCAAGT_L001_R1_001_HQ_paired.lane.1.fastq/SC173870_CATCAAGT_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173870_CATCAAGT_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 227
+    wildcards: samples=SC173870_CATCAAGT_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 227 with external jobid 'Job <29558960> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:29 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9171T_R2.lane.1.fastq
+    output: results/9171T_R2.lane.1.fastq/9171T_R2.lane.1.fastq.gz
+    log: logs/compressfastq/9171T_R2.lane.1.fastq_compressfastq.txt
+    jobid: 67
+    wildcards: samples=9171T_R2.lane.1.fastq
+
+Submitted job 67 with external jobid 'Job <29558961> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:29 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173876_CTGTAGCC_L007_R2_001_HQ_paired.lane.7.fastq
+    output: results/SC173876_CTGTAGCC_L007_R2_001_HQ_paired.lane.7.fastq/SC173876_CTGTAGCC_L007_R2_001_HQ_paired.lane.7.fastq.gz
+    log: logs/compressfastq/SC173876_CTGTAGCC_L007_R2_001_HQ_paired.lane.7.fastq_compressfastq.txt
+    jobid: 127
+    wildcards: samples=SC173876_CTGTAGCC_L007_R2_001_HQ_paired.lane.7.fastq
+
+Submitted job 127 with external jobid 'Job <29558962> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173876_CTGTAGCC_L008_R1_001_HQ_paired.lane.8.fastq
+    output: results/SC173876_CTGTAGCC_L008_R1_001_HQ_paired.lane.8.fastq/SC173876_CTGTAGCC_L008_R1_001_HQ_paired.lane.8.fastq.gz
+    log: logs/compressfastq/SC173876_CTGTAGCC_L008_R1_001_HQ_paired.lane.8.fastq_compressfastq.txt
+    jobid: 128
+    wildcards: samples=SC173876_CTGTAGCC_L008_R1_001_HQ_paired.lane.8.fastq
+
+Submitted job 128 with external jobid 'Job <29558963> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9647T_R2.lane.2.fastq
+    output: results/9647T_R2.lane.2.fastq/9647T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/9647T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 203
+    wildcards: samples=9647T_R2.lane.2.fastq
+
+Submitted job 203 with external jobid 'Job <29558964> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173869_ACAAGCTA_L008_R2_001_HQ_paired.lane.8.fastq
+    output: results/SC173869_ACAAGCTA_L008_R2_001_HQ_paired.lane.8.fastq/SC173869_ACAAGCTA_L008_R2_001_HQ_paired.lane.8.fastq.gz
+    log: logs/compressfastq/SC173869_ACAAGCTA_L008_R2_001_HQ_paired.lane.8.fastq_compressfastq.txt
+    jobid: 9
+    wildcards: samples=SC173869_ACAAGCTA_L008_R2_001_HQ_paired.lane.8.fastq
+
+Submitted job 9 with external jobid 'Job <29558965> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9171T_R2.lane.2.fastq
+    output: results/9171T_R2.lane.2.fastq/9171T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/9171T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 54
+    wildcards: samples=9171T_R2.lane.2.fastq
+
+Submitted job 54 with external jobid 'Job <29558966> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173867_ATTGGCTC_L005_R1_001_HQ_paired.lane.5.fastq
+    output: results/SC173867_ATTGGCTC_L005_R1_001_HQ_paired.lane.5.fastq/SC173867_ATTGGCTC_L005_R1_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173867_ATTGGCTC_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 10
+    wildcards: samples=SC173867_ATTGGCTC_L005_R1_001_HQ_paired.lane.5.fastq
+
+Submitted job 10 with external jobid 'Job <29558967> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173866_CTGGCATA_L005_R1_001_HQ_paired.lane.5.fastq
+    output: results/SC173866_CTGGCATA_L005_R1_001_HQ_paired.lane.5.fastq/SC173866_CTGGCATA_L005_R1_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173866_CTGGCATA_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 190
+    wildcards: samples=SC173866_CTGGCATA_L005_R1_001_HQ_paired.lane.5.fastq
+
+Submitted job 190 with external jobid 'Job <29558968> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173869_ACAAGCTA_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173869_ACAAGCTA_L001_R1_001_HQ_paired.lane.1.fastq/SC173869_ACAAGCTA_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173869_ACAAGCTA_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 205
+    wildcards: samples=SC173869_ACAAGCTA_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 205 with external jobid 'Job <29558969> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173870_CATCAAGT_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173870_CATCAAGT_L001_R2_001_HQ_paired.lane.1.fastq/SC173870_CATCAAGT_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173870_CATCAAGT_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 41
+    wildcards: samples=SC173870_CATCAAGT_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 41 with external jobid 'Job <29558970> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/17283T_R1.lane.2.fastq
+    output: results/17283T_R1.lane.2.fastq/17283T_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17283T_R1.lane.2.fastq_compressfastq.txt
+    jobid: 146
+    wildcards: samples=17283T_R1.lane.2.fastq
+
+Submitted job 146 with external jobid 'Job <29558971> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173865_CTAAGGTC_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173865_CTAAGGTC_L001_R2_001_HQ_paired.lane.1.fastq/SC173865_CTAAGGTC_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173865_CTAAGGTC_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 221
+    wildcards: samples=SC173865_CTAAGGTC_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 221 with external jobid 'Job <29558972> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8480T_R2.lane.1.fastq
+    output: results/8480T_R2.lane.1.fastq/8480T_R2.lane.1.fastq.gz
+    log: logs/compressfastq/8480T_R2.lane.1.fastq_compressfastq.txt
+    jobid: 72
+    wildcards: samples=8480T_R2.lane.1.fastq
+
+Submitted job 72 with external jobid 'Job <29558973> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173867_ATTGGCTC_L004_R2_001_HQ_paired.lane.4.fastq
+    output: results/SC173867_ATTGGCTC_L004_R2_001_HQ_paired.lane.4.fastq/SC173867_ATTGGCTC_L004_R2_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173867_ATTGGCTC_L004_R2_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 192
+    wildcards: samples=SC173867_ATTGGCTC_L004_R2_001_HQ_paired.lane.4.fastq
+
+Submitted job 192 with external jobid 'Job <29558974> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173883_CAGCGTTA_L005_R1_001_HQ_paired.lane.5.fastq
+    output: results/SC173883_CAGCGTTA_L005_R1_001_HQ_paired.lane.5.fastq/SC173883_CAGCGTTA_L005_R1_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173883_CAGCGTTA_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 207
+    wildcards: samples=SC173883_CAGCGTTA_L005_R1_001_HQ_paired.lane.5.fastq
+
+Submitted job 207 with external jobid 'Job <29558975> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173895_AGGCTAAC_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173895_AGGCTAAC_L001_R2_001_HQ_paired.lane.1.fastq/SC173895_AGGCTAAC_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173895_AGGCTAAC_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 58
+    wildcards: samples=SC173895_AGGCTAAC_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 58 with external jobid 'Job <29558976> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173876_CTGTAGCC_L007_R1_001_HQ_paired.lane.7.fastq
+    output: results/SC173876_CTGTAGCC_L007_R1_001_HQ_paired.lane.7.fastq/SC173876_CTGTAGCC_L007_R1_001_HQ_paired.lane.7.fastq.gz
+    log: logs/compressfastq/SC173876_CTGTAGCC_L007_R1_001_HQ_paired.lane.7.fastq_compressfastq.txt
+    jobid: 88
+    wildcards: samples=SC173876_CTGTAGCC_L007_R1_001_HQ_paired.lane.7.fastq
+
+Submitted job 88 with external jobid 'Job <29558977> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:33 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173883_CAGCGTTA_L004_R2_001_HQ_paired.lane.4.fastq
+    output: results/SC173883_CAGCGTTA_L004_R2_001_HQ_paired.lane.4.fastq/SC173883_CAGCGTTA_L004_R2_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173883_CAGCGTTA_L004_R2_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 148
+    wildcards: samples=SC173883_CAGCGTTA_L004_R2_001_HQ_paired.lane.4.fastq
+
+Submitted job 148 with external jobid 'Job <29558978> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:33 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173866_CTGGCATA_L004_R2_001_HQ_paired.lane.4.fastq
+    output: results/SC173866_CTGGCATA_L004_R2_001_HQ_paired.lane.4.fastq/SC173866_CTGGCATA_L004_R2_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173866_CTGGCATA_L004_R2_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 59
+    wildcards: samples=SC173866_CTGGCATA_L004_R2_001_HQ_paired.lane.4.fastq
+
+Submitted job 59 with external jobid 'Job <29558979> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:33 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8515T_R1.lane.1.fastq
+    output: results/8515T_R1.lane.1.fastq/8515T_R1.lane.1.fastq.gz
+    log: logs/compressfastq/8515T_R1.lane.1.fastq_compressfastq.txt
+    jobid: 194
+    wildcards: samples=8515T_R1.lane.1.fastq
+
+Submitted job 194 with external jobid 'Job <29558980> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:33 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173881_GACAGTGC_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173881_GACAGTGC_L001_R1_001_HQ_paired.lane.1.fastq/SC173881_GACAGTGC_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173881_GACAGTGC_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 107
+    wildcards: samples=SC173881_GACAGTGC_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 107 with external jobid 'Job <29558981> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:34 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9171T_R1.lane.2.fastq
+    output: results/9171T_R1.lane.2.fastq/9171T_R1.lane.2.fastq.gz
+    log: logs/compressfastq/9171T_R1.lane.2.fastq_compressfastq.txt
+    jobid: 167
+    wildcards: samples=9171T_R1.lane.2.fastq
+
+Submitted job 167 with external jobid 'Job <29558982> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:34 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173887_AACTCACC_L001_R2_001_HQ_paired.lane.1.fastq
+    output: results/SC173887_AACTCACC_L001_R2_001_HQ_paired.lane.1.fastq/SC173887_AACTCACC_L001_R2_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173887_AACTCACC_L001_R2_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 93
+    wildcards: samples=SC173887_AACTCACC_L001_R2_001_HQ_paired.lane.1.fastq
+
+Submitted job 93 with external jobid 'Job <29558983> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:34 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173877_GTCGTAGA_L004_R1_001_HQ_paired.lane.4.fastq
+    output: results/SC173877_GTCGTAGA_L004_R1_001_HQ_paired.lane.4.fastq/SC173877_GTCGTAGA_L004_R1_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173877_GTCGTAGA_L004_R1_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 94
+    wildcards: samples=SC173877_GTCGTAGA_L004_R1_001_HQ_paired.lane.4.fastq
+
+Submitted job 94 with external jobid 'Job <29558984> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:34 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173865_CTAAGGTC_L001_R1_001_HQ_paired.lane.1.fastq
+    output: results/SC173865_CTAAGGTC_L001_R1_001_HQ_paired.lane.1.fastq/SC173865_CTAAGGTC_L001_R1_001_HQ_paired.lane.1.fastq.gz
+    log: logs/compressfastq/SC173865_CTAAGGTC_L001_R1_001_HQ_paired.lane.1.fastq_compressfastq.txt
+    jobid: 21
+    wildcards: samples=SC173865_CTAAGGTC_L001_R1_001_HQ_paired.lane.1.fastq
+
+Submitted job 21 with external jobid 'Job <29558985> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:34 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8515T_R2.lane.1.fastq
+    output: results/8515T_R2.lane.1.fastq/8515T_R2.lane.1.fastq.gz
+    log: logs/compressfastq/8515T_R2.lane.1.fastq_compressfastq.txt
+    jobid: 22
+    wildcards: samples=8515T_R2.lane.1.fastq
+
+Submitted job 22 with external jobid 'Job <29558986> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:35 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/17283T_R2.lane.2.fastq
+    output: results/17283T_R2.lane.2.fastq/17283T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17283T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 158
+    wildcards: samples=17283T_R2.lane.2.fastq
+
+Submitted job 158 with external jobid 'Job <29558987> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:35 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8480T_R1.lane.1.fastq
+    output: results/8480T_R1.lane.1.fastq/8480T_R1.lane.1.fastq.gz
+    log: logs/compressfastq/8480T_R1.lane.1.fastq_compressfastq.txt
+    jobid: 173
+    wildcards: samples=8480T_R1.lane.1.fastq
+
+Submitted job 173 with external jobid 'Job <29558988> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:35 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/8515T_R2.lane.2.fastq
+    output: results/8515T_R2.lane.2.fastq/8515T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/8515T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 114
+    wildcards: samples=8515T_R2.lane.2.fastq
+
+Submitted job 114 with external jobid 'Job <29558989> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:35 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9647T_R1.lane.1.fastq
+    output: results/9647T_R1.lane.1.fastq/9647T_R1.lane.1.fastq.gz
+    log: logs/compressfastq/9647T_R1.lane.1.fastq_compressfastq.txt
+    jobid: 174
+    wildcards: samples=9647T_R1.lane.1.fastq
+
+Submitted job 174 with external jobid 'Job <29558990> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:35 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/SC173866_CTGGCATA_L004_R1_001_HQ_paired.lane.4.fastq
+    output: results/SC173866_CTGGCATA_L004_R1_001_HQ_paired.lane.4.fastq/SC173866_CTGGCATA_L004_R1_001_HQ_paired.lane.4.fastq.gz
+    log: logs/compressfastq/SC173866_CTGGCATA_L004_R1_001_HQ_paired.lane.4.fastq_compressfastq.txt
+    jobid: 115
+    wildcards: samples=SC173866_CTGGCATA_L004_R1_001_HQ_paired.lane.4.fastq
+
+Submitted job 115 with external jobid 'Job <29558991> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:36 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9171T_R1.lane.1.fastq
+    output: results/9171T_R1.lane.1.fastq/9171T_R1.lane.1.fastq.gz
+    log: logs/compressfastq/9171T_R1.lane.1.fastq_compressfastq.txt
+    jobid: 26
+    wildcards: samples=9171T_R1.lane.1.fastq
+
+Submitted job 26 with external jobid 'Job <29558992> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:36 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9647T_R1.lane.2.fastq
+    output: results/9647T_R1.lane.2.fastq/9647T_R1.lane.2.fastq.gz
+    log: logs/compressfastq/9647T_R1.lane.2.fastq_compressfastq.txt
+    jobid: 101
+    wildcards: samples=9647T_R1.lane.2.fastq
+
+Submitted job 101 with external jobid 'Job <29558993> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:36 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/17274T_R2.lane.2.fastq
+    output: results/17274T_R2.lane.2.fastq/17274T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17274T_R2.lane.2.fastq_compressfastq.txt
+    jobid: 118
+    wildcards: samples=17274T_R2.lane.2.fastq
+
+Submitted job 118 with external jobid 'Job <29558994> is submitted to queue <premium>.'.
+
+[Fri Apr  2 05:35:36 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/9647T_R2.lane.1.fastq
+    output: results/9647T_R2.lane.1.fastq/9647T_R2.lane.1.fastq.gz
+    log: logs/compressfastq/9647T_R2.lane.1.fastq_compressfastq.txt
+    jobid: 119
+    wildcards: samples=9647T_R2.lane.1.fastq
+
+Submitted job 119 with external jobid 'Job <29558995> is submitted to queue <premium>.'.
+[Fri Apr  2 05:39:50 2021]
+Error in rule compressfastq:
+    jobid: 118
+    output: results/17274T_R2.lane.2.fastq/17274T_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17274T_R2.lane.2.fastq_compressfastq.txt (check log file(s) for error message)
+    shell:
+        gzip /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/17274T_R2.lane.2.fastq > results/17274T_R2.lane.2.fastq/17274T_R2.lane.2.fastq.gz 2> logs/compressfastq/17274T_R2.lane.2.fastq_compressfastq.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Job <29558994> is submitted to queue <premium>.
+
+Error executing rule compressfastq on cluster (jobid: 118, external: Job <29558994> is submitted to queue <premium>., jobscript: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/tmp.u0fzyhaa/snakejob.compressfastq.118.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  2 05:56:15 2021]
+Finished job 194.
+1 of 228 steps (0.44%) done
+[Fri Apr  2 05:56:27 2021]
+Finished job 5.
+2 of 228 steps (0.88%) done
+[Fri Apr  2 05:56:43 2021]
+Finished job 207.
+3 of 228 steps (1%) done
+[Fri Apr  2 05:57:09 2021]
+Finished job 140.
+4 of 228 steps (2%) done
+[Fri Apr  2 05:57:10 2021]
+Finished job 10.
+5 of 228 steps (2%) done
+[Fri Apr  2 05:57:24 2021]
+Finished job 146.
+6 of 228 steps (3%) done
+[Fri Apr  2 05:57:25 2021]
+Finished job 72.
+7 of 228 steps (3%) done
+[Fri Apr  2 05:57:25 2021]
+Finished job 148.
+8 of 228 steps (4%) done
+[Fri Apr  2 05:57:26 2021]
+Finished job 107.
+9 of 228 steps (4%) done
+[Fri Apr  2 05:57:37 2021]
+Finished job 180.
+10 of 228 steps (4%) done
+[Fri Apr  2 05:57:52 2021]
+Finished job 123.
+11 of 228 steps (5%) done
+[Fri Apr  2 05:57:52 2021]
+Finished job 35.
+12 of 228 steps (5%) done
+[Fri Apr  2 05:57:53 2021]
+Finished job 192.
+13 of 228 steps (6%) done
+[Fri Apr  2 05:58:17 2021]
+Finished job 121.
+14 of 228 steps (6%) done
+[Fri Apr  2 05:58:18 2021]
+Finished job 198.
+15 of 228 steps (7%) done
+[Fri Apr  2 05:58:18 2021]
+Finished job 213.
+16 of 228 steps (7%) done
+[Fri Apr  2 05:58:19 2021]
+Finished job 41.
+17 of 228 steps (7%) done
+[Fri Apr  2 05:58:19 2021]
+Finished job 93.
+18 of 228 steps (8%) done
+[Fri Apr  2 05:58:20 2021]
+Finished job 22.
+19 of 228 steps (8%) done
+[Fri Apr  2 05:58:31 2021]
+Finished job 128.
+20 of 228 steps (9%) done
+[Fri Apr  2 05:58:32 2021]
+Finished job 58.
+21 of 228 steps (9%) done
+[Fri Apr  2 05:58:32 2021]
+Finished job 94.
+22 of 228 steps (10%) done
+[Fri Apr  2 05:58:45 2021]
+Finished job 167.
+23 of 228 steps (10%) done
+[Fri Apr  2 05:58:45 2021]
+Finished job 114.
+24 of 228 steps (11%) done
+[Fri Apr  2 05:58:55 2021]
+Finished job 51.
+25 of 228 steps (11%) done
+[Fri Apr  2 05:58:56 2021]
+Finished job 127.
+26 of 228 steps (11%) done
+[Fri Apr  2 05:58:56 2021]
+Finished job 221.
+27 of 228 steps (12%) done
+[Fri Apr  2 05:59:07 2021]
+Finished job 227.
+28 of 228 steps (12%) done
+[Fri Apr  2 05:59:08 2021]
+Finished job 54.
+29 of 228 steps (13%) done
+[Fri Apr  2 05:59:08 2021]
+Finished job 190.
+30 of 228 steps (13%) done
+[Fri Apr  2 05:59:20 2021]
+Finished job 173.
+31 of 228 steps (14%) done
+[Fri Apr  2 05:59:30 2021]
+Finished job 212.
+32 of 228 steps (14%) done
+[Fri Apr  2 05:59:42 2021]
+Finished job 21.
+33 of 228 steps (14%) done
+[Fri Apr  2 05:59:53 2021]
+Finished job 9.
+34 of 228 steps (15%) done
+[Fri Apr  2 05:59:53 2021]
+Finished job 59.
+35 of 228 steps (15%) done
+[Fri Apr  2 05:59:53 2021]
+Finished job 158.
+36 of 228 steps (16%) done
+[Fri Apr  2 06:00:03 2021]
+Finished job 75.
+37 of 228 steps (16%) done
+[Fri Apr  2 06:00:04 2021]
+Finished job 88.
+38 of 228 steps (17%) done
+[Fri Apr  2 06:00:25 2021]
+Finished job 77.
+39 of 228 steps (17%) done
+[Fri Apr  2 06:00:25 2021]
+Finished job 67.
+40 of 228 steps (18%) done
+[Fri Apr  2 06:00:36 2021]
+Finished job 203.
+41 of 228 steps (18%) done
+[Fri Apr  2 06:01:06 2021]
+Finished job 101.
+42 of 228 steps (18%) done
+[Fri Apr  2 06:01:06 2021]
+Finished job 174.
+43 of 228 steps (19%) done
+[Fri Apr  2 06:01:26 2021]
+Finished job 47.
+44 of 228 steps (19%) done
+[Fri Apr  2 06:01:36 2021]
+Finished job 26.
+45 of 228 steps (20%) done
+[Fri Apr  2 06:02:26 2021]
+Finished job 205.
+46 of 228 steps (20%) done
+[Fri Apr  2 06:03:27 2021]
+Finished job 115.
+47 of 228 steps (21%) done
+[Fri Apr  2 06:03:57 2021]
+Finished job 30.
+48 of 228 steps (21%) done
+[Fri Apr  2 06:04:47 2021]
+Finished job 119.
+49 of 228 steps (21%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/log/2021-04-02T053525.745886.snakemake.log

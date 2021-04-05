@@ -1,0 +1,1630 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	124	compressfastq
+	125
+
+[Fri Apr  2 06:20:02 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R1.lane.1.fastq
+    output: results/17285M_R1.lane.1.fastq/17285M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17285M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 45
+    wildcards: samples=17285M_R1.lane.1.fastq
+
+Submitted job 45 with external jobid 'Job <29559823> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:02 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R2.lane.2.fastq
+    output: results/17074M_R2.lane.2.fastq/17074M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17074M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 90
+    wildcards: samples=17074M_R2.lane.2.fastq
+
+Submitted job 90 with external jobid 'Job <29559824> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:02 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17069M_R1.lane.1.fastq
+    output: results/17069M_R1.lane.1.fastq/17069M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17069M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 1
+    wildcards: samples=17069M_R1.lane.1.fastq
+
+Submitted job 1 with external jobid 'Job <29559825> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:02 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R2.lane.2.fastq
+    output: results/17011M_R2.lane.2.fastq/17011M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17011M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 91
+    wildcards: samples=17011M_R2.lane.2.fastq
+
+Submitted job 91 with external jobid 'Job <29559826> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:02 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17023M_R1.lane.1.fastq
+    output: results/17023M_R1.lane.1.fastq/17023M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17023M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 2
+    wildcards: samples=17023M_R1.lane.1.fastq
+
+Submitted job 2 with external jobid 'Job <29559827> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:03 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17063M_R1.lane.1.fastq
+    output: results/17063M_R1.lane.1.fastq/17063M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17063M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 47
+    wildcards: samples=17063M_R1.lane.1.fastq
+
+Submitted job 47 with external jobid 'Job <29559828> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:03 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17026M_R2.lane.1.fastq
+    output: results/17026M_R2.lane.1.fastq/17026M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17026M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 92
+    wildcards: samples=17026M_R2.lane.1.fastq
+
+Submitted job 92 with external jobid 'Job <29559829> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:03 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17069M_R2.lane.1.fastq
+    output: results/17069M_R2.lane.1.fastq/17069M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17069M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 3
+    wildcards: samples=17069M_R2.lane.1.fastq
+
+Submitted job 3 with external jobid 'Job <29559830> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:03 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R2.lane.1.fastq
+    output: results/17025M_R2.lane.1.fastq/17025M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17025M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 48
+    wildcards: samples=17025M_R2.lane.1.fastq
+
+Submitted job 48 with external jobid 'Job <29559831> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:03 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17286M_R1.lane.1.fastq
+    output: results/17286M_R1.lane.1.fastq/17286M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17286M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 93
+    wildcards: samples=17286M_R1.lane.1.fastq
+
+Submitted job 93 with external jobid 'Job <29559832> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:04 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R1.lane.2.fastq
+    output: results/17305M_R1.lane.2.fastq/17305M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17305M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 4
+    wildcards: samples=17305M_R1.lane.2.fastq
+
+Submitted job 4 with external jobid 'Job <29559833> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:04 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17054M_R1.lane.1.fastq
+    output: results/17054M_R1.lane.1.fastq/17054M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17054M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 94
+    wildcards: samples=17054M_R1.lane.1.fastq
+
+Submitted job 94 with external jobid 'Job <29559834> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:04 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17040M_R1.lane.1.fastq
+    output: results/17040M_R1.lane.1.fastq/17040M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17040M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 5
+    wildcards: samples=17040M_R1.lane.1.fastq
+
+Submitted job 5 with external jobid 'Job <29559835> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:05 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R1.lane.1.fastq
+    output: results/17011M_R1.lane.1.fastq/17011M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17011M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 50
+    wildcards: samples=17011M_R1.lane.1.fastq
+
+Submitted job 50 with external jobid 'Job <29559836> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:05 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R2.lane.1.fastq
+    output: results/17074M_R2.lane.1.fastq/17074M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17074M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 95
+    wildcards: samples=17074M_R2.lane.1.fastq
+
+Submitted job 95 with external jobid 'Job <29559837> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:05 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17044M_R1.lane.2.fastq
+    output: results/17044M_R1.lane.2.fastq/17044M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17044M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 6
+    wildcards: samples=17044M_R1.lane.2.fastq
+
+Submitted job 6 with external jobid 'Job <29559838> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:05 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17063M_R2.lane.1.fastq
+    output: results/17063M_R2.lane.1.fastq/17063M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17063M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 51
+    wildcards: samples=17063M_R2.lane.1.fastq
+
+Submitted job 51 with external jobid 'Job <29559839> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:05 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R1.lane.2.fastq
+    output: results/17074M_R1.lane.2.fastq/17074M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17074M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 52
+    wildcards: samples=17074M_R1.lane.2.fastq
+
+Submitted job 52 with external jobid 'Job <29559840> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:06 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17286M_R2.lane.2.fastq
+    output: results/17286M_R2.lane.2.fastq/17286M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17286M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 97
+    wildcards: samples=17286M_R2.lane.2.fastq
+
+Submitted job 97 with external jobid 'Job <29559841> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:06 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R2.lane.2.fastq
+    output: results/17305M_R2.lane.2.fastq/17305M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17305M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 8
+    wildcards: samples=17305M_R2.lane.2.fastq
+
+Submitted job 8 with external jobid 'Job <29559842> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:06 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17038M_R1.lane.1.fastq
+    output: results/17038M_R1.lane.1.fastq/17038M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17038M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 53
+    wildcards: samples=17038M_R1.lane.1.fastq
+
+Submitted job 53 with external jobid 'Job <29559843> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:06 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R2.lane.2.fastq
+    output: results/17025M_R2.lane.2.fastq/17025M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17025M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 9
+    wildcards: samples=17025M_R2.lane.2.fastq
+
+Submitted job 9 with external jobid 'Job <29559844> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:06 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R1.lane.2.fastq
+    output: results/17005M_R1.lane.2.fastq/17005M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17005M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 54
+    wildcards: samples=17005M_R1.lane.2.fastq
+
+Submitted job 54 with external jobid 'Job <29559845> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R1.lane.2.fastq
+    output: results/17306M_R1.lane.2.fastq/17306M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17306M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 99
+    wildcards: samples=17306M_R1.lane.2.fastq
+
+Submitted job 99 with external jobid 'Job <29559846> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17044M_R2.lane.2.fastq
+    output: results/17044M_R2.lane.2.fastq/17044M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17044M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 100
+    wildcards: samples=17044M_R2.lane.2.fastq
+
+Submitted job 100 with external jobid 'Job <29559847> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R2.lane.4.fastq
+    output: results/17074M_R2.lane.4.fastq/17074M_R2.lane.4.fastq.gz
+    log: logs/compressfastq/17074M_R2.lane.4.fastq_compressfastq.txt
+    jobid: 11
+    wildcards: samples=17074M_R2.lane.4.fastq
+
+Submitted job 11 with external jobid 'Job <29559848> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17054M_R2.lane.2.fastq
+    output: results/17054M_R2.lane.2.fastq/17054M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17054M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 56
+    wildcards: samples=17054M_R2.lane.2.fastq
+
+Submitted job 56 with external jobid 'Job <29559849> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R2.lane.2.fastq
+    output: results/17306M_R2.lane.2.fastq/17306M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17306M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 101
+    wildcards: samples=17306M_R2.lane.2.fastq
+
+Submitted job 101 with external jobid 'Job <29559850> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R2.lane.1.fastq
+    output: results/17013M_R2.lane.1.fastq/17013M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17013M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 12
+    wildcards: samples=17013M_R2.lane.1.fastq
+
+Submitted job 12 with external jobid 'Job <29559851> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R2.lane.1.fastq
+    output: results/17066M_R2.lane.1.fastq/17066M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17066M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 57
+    wildcards: samples=17066M_R2.lane.1.fastq
+
+Submitted job 57 with external jobid 'Job <29559852> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17292M_R2.lane.2.fastq
+    output: results/17292M_R2.lane.2.fastq/17292M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17292M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 102
+    wildcards: samples=17292M_R2.lane.2.fastq
+
+Submitted job 102 with external jobid 'Job <29559853> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R1.lane.2.fastq
+    output: results/17066M_R1.lane.2.fastq/17066M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17066M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 13
+    wildcards: samples=17066M_R1.lane.2.fastq
+
+Submitted job 13 with external jobid 'Job <29559854> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17044M_R2.lane.1.fastq
+    output: results/17044M_R2.lane.1.fastq/17044M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17044M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 58
+    wildcards: samples=17044M_R2.lane.1.fastq
+
+Submitted job 58 with external jobid 'Job <29559855> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:09 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R2.lane.2.fastq
+    output: results/17036M_R2.lane.2.fastq/17036M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17036M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 103
+    wildcards: samples=17036M_R2.lane.2.fastq
+
+Submitted job 103 with external jobid 'Job <29559856> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:09 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R1.lane.2.fastq
+    output: results/17031M_R1.lane.2.fastq/17031M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17031M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 14
+    wildcards: samples=17031M_R1.lane.2.fastq
+
+Submitted job 14 with external jobid 'Job <29559857> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:09 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17023M_R2.lane.1.fastq
+    output: results/17023M_R2.lane.1.fastq/17023M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17023M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 59
+    wildcards: samples=17023M_R2.lane.1.fastq
+
+Submitted job 59 with external jobid 'Job <29559858> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17069M_R1.lane.2.fastq
+    output: results/17069M_R1.lane.2.fastq/17069M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17069M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 104
+    wildcards: samples=17069M_R1.lane.2.fastq
+
+Submitted job 104 with external jobid 'Job <29559859> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17002M_R1.lane.2.fastq
+    output: results/17002M_R1.lane.2.fastq/17002M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17002M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 15
+    wildcards: samples=17002M_R1.lane.2.fastq
+
+Submitted job 15 with external jobid 'Job <29559860> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R2.lane.2.fastq
+    output: results/17007M_R2.lane.2.fastq/17007M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17007M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 30
+    wildcards: samples=17007M_R2.lane.2.fastq
+
+Submitted job 30 with external jobid 'Job <29559861> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17038M_R1.lane.2.fastq
+    output: results/17038M_R1.lane.2.fastq/17038M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17038M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 75
+    wildcards: samples=17038M_R1.lane.2.fastq
+
+Submitted job 75 with external jobid 'Job <29559862> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17286M_R2.lane.1.fastq
+    output: results/17286M_R2.lane.1.fastq/17286M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17286M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 105
+    wildcards: samples=17286M_R2.lane.1.fastq
+
+Submitted job 105 with external jobid 'Job <29559863> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17026M_R2.lane.2.fastq
+    output: results/17026M_R2.lane.2.fastq/17026M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17026M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 120
+    wildcards: samples=17026M_R2.lane.2.fastq
+
+Submitted job 120 with external jobid 'Job <29559864> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R1.lane.1.fastq
+    output: results/17036M_R1.lane.1.fastq/17036M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17036M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 16
+    wildcards: samples=17036M_R1.lane.1.fastq
+
+Submitted job 16 with external jobid 'Job <29559865> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R2.lane.2.fastq
+    output: results/17066M_R2.lane.2.fastq/17066M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17066M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 61
+    wildcards: samples=17066M_R2.lane.2.fastq
+
+Submitted job 61 with external jobid 'Job <29559866> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17026M_R1.lane.1.fastq
+    output: results/17026M_R1.lane.1.fastq/17026M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17026M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 76
+    wildcards: samples=17026M_R1.lane.1.fastq
+
+Submitted job 76 with external jobid 'Job <29559867> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:12 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17038M_R2.lane.2.fastq
+    output: results/17038M_R2.lane.2.fastq/17038M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17038M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 106
+    wildcards: samples=17038M_R2.lane.2.fastq
+
+Submitted job 106 with external jobid 'Job <29559868> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:12 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R2.lane.1.fastq
+    output: results/17007M_R2.lane.1.fastq/17007M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17007M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 121
+    wildcards: samples=17007M_R2.lane.1.fastq
+
+Submitted job 121 with external jobid 'Job <29559869> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:12 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R2.lane.1.fastq
+    output: results/17011M_R2.lane.1.fastq/17011M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17011M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 77
+    wildcards: samples=17011M_R2.lane.1.fastq
+
+Submitted job 77 with external jobid 'Job <29559870> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:12 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R1.lane.1.fastq
+    output: results/17066M_R1.lane.1.fastq/17066M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17066M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 17
+    wildcards: samples=17066M_R1.lane.1.fastq
+
+Submitted job 17 with external jobid 'Job <29559871> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:12 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R2.lane.2.fastq
+    output: results/17030M_R2.lane.2.fastq/17030M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17030M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 32
+    wildcards: samples=17030M_R2.lane.2.fastq
+
+Submitted job 32 with external jobid 'Job <29559872> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:13 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R2.lane.1.fastq
+    output: results/17036M_R2.lane.1.fastq/17036M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17036M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 62
+    wildcards: samples=17036M_R2.lane.1.fastq
+
+Submitted job 62 with external jobid 'Job <29559873> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:13 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R1.lane.1.fastq
+    output: results/17074M_R1.lane.1.fastq/17074M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17074M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 107
+    wildcards: samples=17074M_R1.lane.1.fastq
+
+Submitted job 107 with external jobid 'Job <29559874> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:13 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17023M_R2.lane.2.fastq
+    output: results/17023M_R2.lane.2.fastq/17023M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17023M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 122
+    wildcards: samples=17023M_R2.lane.2.fastq
+
+Submitted job 122 with external jobid 'Job <29559875> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:13 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R2.lane.2.fastq
+    output: results/17031M_R2.lane.2.fastq/17031M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17031M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 18
+    wildcards: samples=17031M_R2.lane.2.fastq
+
+Submitted job 18 with external jobid 'Job <29559876> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:13 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R1.lane.1.fastq
+    output: results/17305M_R1.lane.1.fastq/17305M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17305M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 33
+    wildcards: samples=17305M_R1.lane.1.fastq
+
+Submitted job 33 with external jobid 'Job <29559877> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:14 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17044M_R1.lane.1.fastq
+    output: results/17044M_R1.lane.1.fastq/17044M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17044M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 63
+    wildcards: samples=17044M_R1.lane.1.fastq
+
+Submitted job 63 with external jobid 'Job <29559878> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:14 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17002M_R2.lane.1.fastq
+    output: results/17002M_R2.lane.1.fastq/17002M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17002M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 78
+    wildcards: samples=17002M_R2.lane.1.fastq
+
+Submitted job 78 with external jobid 'Job <29559879> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:14 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R1.lane.2.fastq
+    output: results/17013M_R1.lane.2.fastq/17013M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17013M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 108
+    wildcards: samples=17013M_R1.lane.2.fastq
+
+Submitted job 108 with external jobid 'Job <29559880> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:15 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17016M_R1.lane.3.fastq
+    output: results/17016M_R1.lane.3.fastq/17016M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17016M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 123
+    wildcards: samples=17016M_R1.lane.3.fastq
+
+Submitted job 123 with external jobid 'Job <29559881> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:15 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17292M_R1.lane.2.fastq
+    output: results/17292M_R1.lane.2.fastq/17292M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17292M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 19
+    wildcards: samples=17292M_R1.lane.2.fastq
+
+Submitted job 19 with external jobid 'Job <29559882> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:15 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R1.lane.1.fastq
+    output: results/17031M_R1.lane.1.fastq/17031M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17031M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 34
+    wildcards: samples=17031M_R1.lane.1.fastq
+
+Submitted job 34 with external jobid 'Job <29559883> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:15 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17054M_R1.lane.2.fastq
+    output: results/17054M_R1.lane.2.fastq/17054M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17054M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 64
+    wildcards: samples=17054M_R1.lane.2.fastq
+
+Submitted job 64 with external jobid 'Job <29559884> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:16 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R2.lane.2.fastq
+    output: results/17285M_R2.lane.2.fastq/17285M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17285M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 79
+    wildcards: samples=17285M_R2.lane.2.fastq
+
+Submitted job 79 with external jobid 'Job <29559885> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:16 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R1.lane.2.fastq
+    output: results/17011M_R1.lane.2.fastq/17011M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17011M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 109
+    wildcards: samples=17011M_R1.lane.2.fastq
+
+Submitted job 109 with external jobid 'Job <29559886> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:16 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17292M_R1.lane.1.fastq
+    output: results/17292M_R1.lane.1.fastq/17292M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17292M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 20
+    wildcards: samples=17292M_R1.lane.1.fastq
+
+Submitted job 20 with external jobid 'Job <29559887> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:16 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17016M_R2.lane.3.fastq
+    output: results/17016M_R2.lane.3.fastq/17016M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17016M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 65
+    wildcards: samples=17016M_R2.lane.3.fastq
+
+Submitted job 65 with external jobid 'Job <29559888> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:16 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17040M_R1.lane.2.fastq
+    output: results/17040M_R1.lane.2.fastq/17040M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17040M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 110
+    wildcards: samples=17040M_R1.lane.2.fastq
+
+Submitted job 110 with external jobid 'Job <29559889> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:17 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R1.lane.2.fastq
+    output: results/17285M_R1.lane.2.fastq/17285M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17285M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 36
+    wildcards: samples=17285M_R1.lane.2.fastq
+
+Submitted job 36 with external jobid 'Job <29559890> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:17 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R2.lane.1.fastq
+    output: results/17305M_R2.lane.1.fastq/17305M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17305M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 66
+    wildcards: samples=17305M_R2.lane.1.fastq
+
+Submitted job 66 with external jobid 'Job <29559891> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:17 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R1.lane.1.fastq
+    output: results/17306M_R1.lane.1.fastq/17306M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17306M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 81
+    wildcards: samples=17306M_R1.lane.1.fastq
+
+Submitted job 81 with external jobid 'Job <29559892> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:17 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17292M_R2.lane.1.fastq
+    output: results/17292M_R2.lane.1.fastq/17292M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17292M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 111
+    wildcards: samples=17292M_R2.lane.1.fastq
+
+Submitted job 111 with external jobid 'Job <29559893> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:17 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R1.lane.2.fastq
+    output: results/17030M_R1.lane.2.fastq/17030M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17030M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 37
+    wildcards: samples=17030M_R1.lane.2.fastq
+
+Submitted job 37 with external jobid 'Job <29559894> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:18 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17040M_R2.lane.1.fastq
+    output: results/17040M_R2.lane.1.fastq/17040M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17040M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 22
+    wildcards: samples=17040M_R2.lane.1.fastq
+
+Submitted job 22 with external jobid 'Job <29559895> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:18 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R1.lane.2.fastq
+    output: results/17025M_R1.lane.2.fastq/17025M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17025M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 67
+    wildcards: samples=17025M_R1.lane.2.fastq
+
+Submitted job 67 with external jobid 'Job <29559896> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:18 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17074M_R1.lane.4.fastq
+    output: results/17074M_R1.lane.4.fastq/17074M_R1.lane.4.fastq.gz
+    log: logs/compressfastq/17074M_R1.lane.4.fastq_compressfastq.txt
+    jobid: 82
+    wildcards: samples=17074M_R1.lane.4.fastq
+
+Submitted job 82 with external jobid 'Job <29559897> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:18 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17023M_R1.lane.2.fastq
+    output: results/17023M_R1.lane.2.fastq/17023M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17023M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 112
+    wildcards: samples=17023M_R1.lane.2.fastq
+
+Submitted job 112 with external jobid 'Job <29559898> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:18 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17063M_R1.lane.2.fastq
+    output: results/17063M_R1.lane.2.fastq/17063M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17063M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 38
+    wildcards: samples=17063M_R1.lane.2.fastq
+
+Submitted job 38 with external jobid 'Job <29559899> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:19 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R1.lane.2.fastq
+    output: results/17007M_R1.lane.2.fastq/17007M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17007M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 83
+    wildcards: samples=17007M_R1.lane.2.fastq
+
+Submitted job 83 with external jobid 'Job <29559900> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:19 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R2.lane.1.fastq
+    output: results/17030M_R2.lane.1.fastq/17030M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17030M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 24
+    wildcards: samples=17030M_R2.lane.1.fastq
+
+Submitted job 24 with external jobid 'Job <29559901> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:19 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R1.lane.1.fastq
+    output: results/17007M_R1.lane.1.fastq/17007M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17007M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 69
+    wildcards: samples=17007M_R1.lane.1.fastq
+
+Submitted job 69 with external jobid 'Job <29559902> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:19 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R2.lane.2.fastq
+    output: results/17013M_R2.lane.2.fastq/17013M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17013M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 114
+    wildcards: samples=17013M_R2.lane.2.fastq
+
+Submitted job 114 with external jobid 'Job <29559903> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:20 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R1.lane.1.fastq
+    output: results/17025M_R1.lane.1.fastq/17025M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17025M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 25
+    wildcards: samples=17025M_R1.lane.1.fastq
+
+Submitted job 25 with external jobid 'Job <29559904> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:20 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R2.lane.1.fastq
+    output: results/17285M_R2.lane.1.fastq/17285M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17285M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 40
+    wildcards: samples=17285M_R2.lane.1.fastq
+
+Submitted job 40 with external jobid 'Job <29559905> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:20 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17054M_R2.lane.1.fastq
+    output: results/17054M_R2.lane.1.fastq/17054M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17054M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 70
+    wildcards: samples=17054M_R2.lane.1.fastq
+
+Submitted job 70 with external jobid 'Job <29559906> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:21 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R2.lane.1.fastq
+    output: results/17005M_R2.lane.1.fastq/17005M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17005M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 85
+    wildcards: samples=17005M_R2.lane.1.fastq
+
+Submitted job 85 with external jobid 'Job <29559907> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:21 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R1.lane.1.fastq
+    output: results/17030M_R1.lane.1.fastq/17030M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17030M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 26
+    wildcards: samples=17030M_R1.lane.1.fastq
+
+Submitted job 26 with external jobid 'Job <29559908> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:21 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17063M_R2.lane.2.fastq
+    output: results/17063M_R2.lane.2.fastq/17063M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17063M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 86
+    wildcards: samples=17063M_R2.lane.2.fastq
+
+Submitted job 86 with external jobid 'Job <29559909> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:21 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R2.lane.1.fastq
+    output: results/17306M_R2.lane.1.fastq/17306M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17306M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 116
+    wildcards: samples=17306M_R2.lane.1.fastq
+
+Submitted job 116 with external jobid 'Job <29559910> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:21 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17026M_R1.lane.2.fastq
+    output: results/17026M_R1.lane.2.fastq/17026M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17026M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 27
+    wildcards: samples=17026M_R1.lane.2.fastq
+
+Submitted job 27 with external jobid 'Job <29559911> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:22 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R1.lane.2.fastq
+    output: results/17036M_R1.lane.2.fastq/17036M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17036M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 42
+    wildcards: samples=17036M_R1.lane.2.fastq
+
+Submitted job 42 with external jobid 'Job <29559912> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:22 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17038M_R2.lane.1.fastq
+    output: results/17038M_R2.lane.1.fastq/17038M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17038M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 72
+    wildcards: samples=17038M_R2.lane.1.fastq
+
+Submitted job 72 with external jobid 'Job <29559913> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:22 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17002M_R2.lane.2.fastq
+    output: results/17002M_R2.lane.2.fastq/17002M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17002M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 87
+    wildcards: samples=17002M_R2.lane.2.fastq
+
+Submitted job 87 with external jobid 'Job <29559914> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:22 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17002M_R1.lane.1.fastq
+    output: results/17002M_R1.lane.1.fastq/17002M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17002M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 117
+    wildcards: samples=17002M_R1.lane.1.fastq
+
+Submitted job 117 with external jobid 'Job <29559915> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:22 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R2.lane.2.fastq
+    output: results/17005M_R2.lane.2.fastq/17005M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17005M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 28
+    wildcards: samples=17005M_R2.lane.2.fastq
+
+Submitted job 28 with external jobid 'Job <29559916> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R1.lane.1.fastq
+    output: results/17013M_R1.lane.1.fastq/17013M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17013M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 43
+    wildcards: samples=17013M_R1.lane.1.fastq
+
+Submitted job 43 with external jobid 'Job <29559917> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R1.lane.1.fastq
+    output: results/17005M_R1.lane.1.fastq/17005M_R1.lane.1.fastq.gz
+    log: logs/compressfastq/17005M_R1.lane.1.fastq_compressfastq.txt
+    jobid: 73
+    wildcards: samples=17005M_R1.lane.1.fastq
+
+Submitted job 73 with external jobid 'Job <29559918> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17069M_R2.lane.2.fastq
+    output: results/17069M_R2.lane.2.fastq/17069M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17069M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 88
+    wildcards: samples=17069M_R2.lane.2.fastq
+
+Submitted job 88 with external jobid 'Job <29559919> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17040M_R2.lane.2.fastq
+    output: results/17040M_R2.lane.2.fastq/17040M_R2.lane.2.fastq.gz
+    log: logs/compressfastq/17040M_R2.lane.2.fastq_compressfastq.txt
+    jobid: 44
+    wildcards: samples=17040M_R2.lane.2.fastq
+
+Submitted job 44 with external jobid 'Job <29559920> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R2.lane.1.fastq
+    output: results/17031M_R2.lane.1.fastq/17031M_R2.lane.1.fastq.gz
+    log: logs/compressfastq/17031M_R2.lane.1.fastq_compressfastq.txt
+    jobid: 89
+    wildcards: samples=17031M_R2.lane.1.fastq
+
+Submitted job 89 with external jobid 'Job <29559921> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:20:24 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17286M_R1.lane.2.fastq
+    output: results/17286M_R1.lane.2.fastq/17286M_R1.lane.2.fastq.gz
+    log: logs/compressfastq/17286M_R1.lane.2.fastq_compressfastq.txt
+    jobid: 119
+    wildcards: samples=17286M_R1.lane.2.fastq
+
+Submitted job 119 with external jobid 'Job <29559922> is submitted to queue <premium>.'.
+[Fri Apr  2 06:26:50 2021]
+Finished job 11.
+1 of 125 steps (0.80%) done
+
+[Fri Apr  2 06:26:50 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R1.lane.3.fastq
+    output: results/17066M_R1.lane.3.fastq/17066M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17066M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 60
+    wildcards: samples=17066M_R1.lane.3.fastq
+
+Submitted job 60 with external jobid 'Job <29559968> is submitted to queue <premium>.'.
+[Fri Apr  2 06:28:51 2021]
+Finished job 103.
+2 of 125 steps (2%) done
+
+[Fri Apr  2 06:28:51 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17066M_R2.lane.3.fastq
+    output: results/17066M_R2.lane.3.fastq/17066M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17066M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 115
+    wildcards: samples=17066M_R2.lane.3.fastq
+
+Submitted job 115 with external jobid 'Job <29559976> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:07 2021]
+Finished job 45.
+3 of 125 steps (2%) done
+
+[Fri Apr  2 06:29:07 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R2.lane.3.fastq
+    output: results/17030M_R2.lane.3.fastq/17030M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17030M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 98
+    wildcards: samples=17030M_R2.lane.3.fastq
+
+Submitted job 98 with external jobid 'Job <29559979> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:08 2021]
+Finished job 90.
+4 of 125 steps (3%) done
+
+[Fri Apr  2 06:29:08 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17030M_R1.lane.3.fastq
+    output: results/17030M_R1.lane.3.fastq/17030M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17030M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 68
+    wildcards: samples=17030M_R1.lane.3.fastq
+
+Submitted job 68 with external jobid 'Job <29559980> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:09 2021]
+Finished job 52.
+5 of 125 steps (4%) done
+
+[Fri Apr  2 06:29:09 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R2.lane.3.fastq
+    output: results/17025M_R2.lane.3.fastq/17025M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17025M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 96
+    wildcards: samples=17025M_R2.lane.3.fastq
+
+Submitted job 96 with external jobid 'Job <29559981> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:28 2021]
+Finished job 48.
+6 of 125 steps (5%) done
+
+[Fri Apr  2 06:29:28 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17025M_R1.lane.3.fastq
+    output: results/17025M_R1.lane.3.fastq/17025M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17025M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 35
+    wildcards: samples=17025M_R1.lane.3.fastq
+
+Submitted job 35 with external jobid 'Job <29559984> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:29 2021]
+Finished job 95.
+7 of 125 steps (6%) done
+
+[Fri Apr  2 06:29:29 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R2.lane.3.fastq
+    output: results/17036M_R2.lane.3.fastq/17036M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17036M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 31
+    wildcards: samples=17036M_R2.lane.3.fastq
+
+Submitted job 31 with external jobid 'Job <29559986> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:30 2021]
+Finished job 13.
+8 of 125 steps (6%) done
+
+[Fri Apr  2 06:29:30 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17036M_R1.lane.3.fastq
+    output: results/17036M_R1.lane.3.fastq/17036M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17036M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 118
+    wildcards: samples=17036M_R1.lane.3.fastq
+
+Submitted job 118 with external jobid 'Job <29559987> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:31 2021]
+Finished job 14.
+9 of 125 steps (7%) done
+
+[Fri Apr  2 06:29:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R2.lane.3.fastq
+    output: results/17031M_R2.lane.3.fastq/17031M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17031M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 7
+    wildcards: samples=17031M_R2.lane.3.fastq
+
+Submitted job 7 with external jobid 'Job <29559988> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:49 2021]
+Finished job 50.
+10 of 125 steps (8%) done
+
+[Fri Apr  2 06:29:49 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17031M_R1.lane.3.fastq
+    output: results/17031M_R1.lane.3.fastq/17031M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17031M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 10
+    wildcards: samples=17031M_R1.lane.3.fastq
+
+Submitted job 10 with external jobid 'Job <29559994> is submitted to queue <premium>.'.
+[Fri Apr  2 06:29:50 2021]
+Finished job 9.
+11 of 125 steps (9%) done
+
+[Fri Apr  2 06:29:50 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R1.lane.3.fastq
+    output: results/17285M_R1.lane.3.fastq/17285M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17285M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 124
+    wildcards: samples=17285M_R1.lane.3.fastq
+
+[Fri Apr  2 06:29:51 2021]
+Finished job 57.
+12 of 125 steps (10%) done
+Submitted job 124 with external jobid 'Job <29559995> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:29:51 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17285M_R2.lane.3.fastq
+    output: results/17285M_R2.lane.3.fastq/17285M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17285M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 23
+    wildcards: samples=17285M_R2.lane.3.fastq
+
+Submitted job 23 with external jobid 'Job <29559996> is submitted to queue <premium>.'.
+[Fri Apr  2 06:30:10 2021]
+Finished job 91.
+13 of 125 steps (10%) done
+
+[Fri Apr  2 06:30:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R1.lane.4.fastq
+    output: results/17007M_R1.lane.4.fastq/17007M_R1.lane.4.fastq.gz
+    log: logs/compressfastq/17007M_R1.lane.4.fastq_compressfastq.txt
+    jobid: 55
+    wildcards: samples=17007M_R1.lane.4.fastq
+
+[Fri Apr  2 06:30:10 2021]
+Finished job 93.
+14 of 125 steps (11%) done
+[Fri Apr  2 06:30:10 2021]
+Finished job 4.
+15 of 125 steps (12%) done
+Submitted job 55 with external jobid 'Job <29560001> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R2.lane.3.fastq
+    output: results/17013M_R2.lane.3.fastq/17013M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17013M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 80
+    wildcards: samples=17013M_R2.lane.3.fastq
+
+Submitted job 80 with external jobid 'Job <29560002> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:10 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17007M_R2.lane.4.fastq
+    output: results/17007M_R2.lane.4.fastq/17007M_R2.lane.4.fastq.gz
+    log: logs/compressfastq/17007M_R2.lane.4.fastq_compressfastq.txt
+    jobid: 74
+    wildcards: samples=17007M_R2.lane.4.fastq
+
+Submitted job 74 with external jobid 'Job <29560003> is submitted to queue <premium>.'.
+[Fri Apr  2 06:30:11 2021]
+Finished job 8.
+16 of 125 steps (13%) done
+
+[Fri Apr  2 06:30:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17013M_R1.lane.3.fastq
+    output: results/17013M_R1.lane.3.fastq/17013M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17013M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 84
+    wildcards: samples=17013M_R1.lane.3.fastq
+
+[Fri Apr  2 06:30:11 2021]
+Finished job 101.
+17 of 125 steps (14%) done
+[Fri Apr  2 06:30:11 2021]
+Finished job 12.
+18 of 125 steps (14%) done
+Submitted job 84 with external jobid 'Job <29560004> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R1.lane.3.fastq
+    output: results/17305M_R1.lane.3.fastq/17305M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17305M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 71
+    wildcards: samples=17305M_R1.lane.3.fastq
+
+Submitted job 71 with external jobid 'Job <29560005> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:11 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17305M_R2.lane.3.fastq
+    output: results/17305M_R2.lane.3.fastq/17305M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17305M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 29
+    wildcards: samples=17305M_R2.lane.3.fastq
+
+Submitted job 29 with external jobid 'Job <29560006> is submitted to queue <premium>.'.
+[Fri Apr  2 06:30:31 2021]
+Finished job 94.
+19 of 125 steps (15%) done
+
+[Fri Apr  2 06:30:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R2.lane.3.fastq
+    output: results/17306M_R2.lane.3.fastq/17306M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17306M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 49
+    wildcards: samples=17306M_R2.lane.3.fastq
+
+[Fri Apr  2 06:30:31 2021]
+Finished job 97.
+20 of 125 steps (16%) done
+[Fri Apr  2 06:30:31 2021]
+Finished job 54.
+21 of 125 steps (17%) done
+[Fri Apr  2 06:30:31 2021]
+Finished job 99.
+22 of 125 steps (18%) done
+[Fri Apr  2 06:30:31 2021]
+Finished job 56.
+23 of 125 steps (18%) done
+Submitted job 49 with external jobid 'Job <29560009> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R2.lane.3.fastq
+    output: results/17011M_R2.lane.3.fastq/17011M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17011M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 46
+    wildcards: samples=17011M_R2.lane.3.fastq
+
+Submitted job 46 with external jobid 'Job <29560010> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R1.lane.3.fastq
+    output: results/17005M_R1.lane.3.fastq/17005M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17005M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 21
+    wildcards: samples=17005M_R1.lane.3.fastq
+
+Submitted job 21 with external jobid 'Job <29560011> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:31 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17011M_R1.lane.3.fastq
+    output: results/17011M_R1.lane.3.fastq/17011M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17011M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 113
+    wildcards: samples=17011M_R1.lane.3.fastq
+
+Submitted job 113 with external jobid 'Job <29560012> is submitted to queue <premium>.'.
+
+[Fri Apr  2 06:30:32 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17306M_R1.lane.3.fastq
+    output: results/17306M_R1.lane.3.fastq/17306M_R1.lane.3.fastq.gz
+    log: logs/compressfastq/17306M_R1.lane.3.fastq_compressfastq.txt
+    jobid: 41
+    wildcards: samples=17306M_R1.lane.3.fastq
+
+Submitted job 41 with external jobid 'Job <29560013> is submitted to queue <premium>.'.
+[Fri Apr  2 06:30:51 2021]
+Finished job 2.
+24 of 125 steps (19%) done
+
+[Fri Apr  2 06:30:51 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Mucose/demultiplex_fastq/17005M_R2.lane.3.fastq
+    output: results/17005M_R2.lane.3.fastq/17005M_R2.lane.3.fastq.gz
+    log: logs/compressfastq/17005M_R2.lane.3.fastq_compressfastq.txt
+    jobid: 39
+    wildcards: samples=17005M_R2.lane.3.fastq
+
+[Fri Apr  2 06:30:51 2021]
+Finished job 3.
+25 of 125 steps (20%) done
+[Fri Apr  2 06:30:51 2021]
+Finished job 51.
+26 of 125 steps (21%) done
+Submitted job 39 with external jobid 'Job <29560017> is submitted to queue <premium>.'.
+[Fri Apr  2 06:30:52 2021]
+Finished job 58.
+27 of 125 steps (22%) done
+[Fri Apr  2 06:30:52 2021]
+Finished job 59.
+28 of 125 steps (22%) done
+[Fri Apr  2 06:30:52 2021]
+Finished job 104.
+29 of 125 steps (23%) done
+[Fri Apr  2 06:31:11 2021]
+Finished job 1.
+30 of 125 steps (24%) done
+[Fri Apr  2 06:31:11 2021]
+Finished job 47.
+31 of 125 steps (25%) done
+[Fri Apr  2 06:31:11 2021]
+Finished job 5.
+32 of 125 steps (26%) done
+[Fri Apr  2 06:31:11 2021]
+Finished job 100.
+33 of 125 steps (26%) done
+[Fri Apr  2 06:31:11 2021]
+Finished job 102.
+34 of 125 steps (27%) done
+[Fri Apr  2 06:31:30 2021]
+Finished job 6.
+35 of 125 steps (28%) done
+[Fri Apr  2 06:31:30 2021]
+Finished job 53.
+36 of 125 steps (29%) done
+[Fri Apr  2 06:32:07 2021]
+Finished job 92.
+37 of 125 steps (30%) done
+[Fri Apr  2 06:33:01 2021]
+Finished job 30.
+38 of 125 steps (30%) done
+[Fri Apr  2 06:34:31 2021]
+Finished job 15.
+39 of 125 steps (31%) done
+[Fri Apr  2 06:34:49 2021]
+Finished job 105.
+40 of 125 steps (32%) done
+[Fri Apr  2 06:35:25 2021]
+Finished job 16.
+41 of 125 steps (33%) done
+[Fri Apr  2 06:36:37 2021]
+Finished job 75.
+42 of 125 steps (34%) done
+[Fri Apr  2 06:37:50 2021]
+Finished job 61.
+43 of 125 steps (34%) done
+[Fri Apr  2 06:38:06 2021]
+Finished job 17.
+44 of 125 steps (35%) done
+[Fri Apr  2 06:38:07 2021]
+Finished job 62.
+45 of 125 steps (36%) done
+[Fri Apr  2 06:38:09 2021]
+Finished job 82.
+46 of 125 steps (37%) done
+[Fri Apr  2 06:38:24 2021]
+Finished job 107.
+47 of 125 steps (38%) done
+[Fri Apr  2 06:38:41 2021]
+Finished job 32.
+48 of 125 steps (38%) done
+[Fri Apr  2 06:38:58 2021]
+Finished job 121.
+49 of 125 steps (39%) done
+[Fri Apr  2 06:38:58 2021]
+Finished job 77.
+50 of 125 steps (40%) done
+[Fri Apr  2 06:38:59 2021]
+Finished job 120.
+51 of 125 steps (41%) done
+[Fri Apr  2 06:39:15 2021]
+Finished job 18.
+52 of 125 steps (42%) done
+[Fri Apr  2 06:39:33 2021]
+Finished job 108.
+53 of 125 steps (42%) done
+[Fri Apr  2 06:39:33 2021]
+Finished job 34.
+54 of 125 steps (43%) done
+[Fri Apr  2 06:39:49 2021]
+Finished job 122.
+55 of 125 steps (44%) done
+[Fri Apr  2 06:39:49 2021]
+Finished job 33.
+56 of 125 steps (45%) done
+[Fri Apr  2 06:39:50 2021]
+Finished job 36.
+57 of 125 steps (46%) done
+[Fri Apr  2 06:39:51 2021]
+Finished job 81.
+58 of 125 steps (46%) done
+[Fri Apr  2 06:39:51 2021]
+Finished job 37.
+59 of 125 steps (47%) done
+[Fri Apr  2 06:40:06 2021]
+Finished job 106.
+60 of 125 steps (48%) done
+[Fri Apr  2 06:40:07 2021]
+Finished job 79.
+61 of 125 steps (49%) done
+[Fri Apr  2 06:40:07 2021]
+Finished job 109.
+62 of 125 steps (50%) done
+[Fri Apr  2 06:40:22 2021]
+Finished job 76.
+63 of 125 steps (50%) done
+[Fri Apr  2 06:40:23 2021]
+Finished job 66.
+64 of 125 steps (51%) done
+[Fri Apr  2 06:40:23 2021]
+Finished job 67.
+65 of 125 steps (52%) done
+[Fri Apr  2 06:40:23 2021]
+Finished job 83.
+66 of 125 steps (53%) done
+[Fri Apr  2 06:40:39 2021]
+Finished job 69.
+67 of 125 steps (54%) done
+[Fri Apr  2 06:40:53 2021]
+Finished job 63.
+68 of 125 steps (54%) done
+[Fri Apr  2 06:40:54 2021]
+Finished job 25.
+69 of 125 steps (55%) done
+[Fri Apr  2 06:41:08 2021]
+Finished job 19.
+70 of 125 steps (56%) done
+[Fri Apr  2 06:41:08 2021]
+Finished job 64.
+71 of 125 steps (57%) done
+[Fri Apr  2 06:41:08 2021]
+Finished job 20.
+72 of 125 steps (58%) done
+[Fri Apr  2 06:41:09 2021]
+Finished job 110.
+73 of 125 steps (58%) done
+[Fri Apr  2 06:41:09 2021]
+Finished job 24.
+74 of 125 steps (59%) done
+[Fri Apr  2 06:41:09 2021]
+Finished job 40.
+75 of 125 steps (60%) done
+[Fri Apr  2 06:41:21 2021]
+Finished job 80.
+76 of 125 steps (61%) done
+[Fri Apr  2 06:41:22 2021]
+Finished job 71.
+77 of 125 steps (62%) done
+[Fri Apr  2 06:41:23 2021]
+Finished job 78.
+78 of 125 steps (62%) done
+[Fri Apr  2 06:41:23 2021]
+Finished job 22.
+79 of 125 steps (63%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 39.
+80 of 125 steps (64%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 46.
+81 of 125 steps (65%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 21.
+82 of 125 steps (66%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 113.
+83 of 125 steps (66%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 41.
+84 of 125 steps (67%) done
+[Fri Apr  2 06:41:35 2021]
+Finished job 84.
+85 of 125 steps (68%) done
+[Fri Apr  2 06:41:37 2021]
+Finished job 38.
+86 of 125 steps (69%) done
+[Fri Apr  2 06:41:37 2021]
+Finished job 114.
+87 of 125 steps (70%) done
+[Fri Apr  2 06:41:49 2021]
+Finished job 49.
+88 of 125 steps (70%) done
+[Fri Apr  2 06:41:49 2021]
+Finished job 55.
+89 of 125 steps (71%) done
+[Fri Apr  2 06:41:49 2021]
+Finished job 74.
+90 of 125 steps (72%) done
+[Fri Apr  2 06:41:49 2021]
+Finished job 29.
+91 of 125 steps (73%) done
+[Fri Apr  2 06:42:03 2021]
+Finished job 111.
+92 of 125 steps (74%) done
+[Fri Apr  2 06:42:04 2021]
+Finished job 112.
+93 of 125 steps (74%) done
+[Fri Apr  2 06:42:30 2021]
+Finished job 26.
+94 of 125 steps (75%) done
+[Fri Apr  2 06:42:56 2021]
+Finished job 85.
+95 of 125 steps (76%) done
+[Fri Apr  2 06:43:09 2021]
+Finished job 70.
+96 of 125 steps (77%) done
+[Fri Apr  2 06:44:56 2021]
+Finished job 35.
+97 of 125 steps (78%) done
+[Fri Apr  2 06:44:56 2021]
+Finished job 31.
+98 of 125 steps (78%) done
+[Fri Apr  2 06:45:08 2021]
+Finished job 10.
+99 of 125 steps (79%) done
+[Fri Apr  2 06:45:08 2021]
+Finished job 124.
+100 of 125 steps (80%) done
+[Fri Apr  2 06:45:08 2021]
+Finished job 7.
+101 of 125 steps (81%) done
+[Fri Apr  2 06:45:08 2021]
+Finished job 68.
+102 of 125 steps (82%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 118.
+103 of 125 steps (82%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 98.
+104 of 125 steps (83%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 96.
+105 of 125 steps (84%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 115.
+106 of 125 steps (85%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 60.
+107 of 125 steps (86%) done
+[Fri Apr  2 06:45:20 2021]
+Finished job 86.
+108 of 125 steps (86%) done
+[Fri Apr  2 06:45:32 2021]
+Finished job 23.
+109 of 125 steps (87%) done
+[Fri Apr  2 06:45:43 2021]
+Finished job 116.
+110 of 125 steps (88%) done
+[Fri Apr  2 06:46:38 2021]
+Finished job 42.
+111 of 125 steps (89%) done
+[Fri Apr  2 06:47:44 2021]
+Finished job 43.
+112 of 125 steps (90%) done
+[Fri Apr  2 06:47:55 2021]
+Finished job 27.
+113 of 125 steps (90%) done
+[Fri Apr  2 06:47:55 2021]
+Finished job 28.
+114 of 125 steps (91%) done
+[Fri Apr  2 06:48:06 2021]
+Finished job 73.
+115 of 125 steps (92%) done
+[Fri Apr  2 06:48:57 2021]
+Finished job 72.
+116 of 125 steps (93%) done
+[Fri Apr  2 06:48:57 2021]
+Finished job 44.
+117 of 125 steps (94%) done
+[Fri Apr  2 06:48:57 2021]
+Finished job 89.
+118 of 125 steps (94%) done
+[Fri Apr  2 06:49:07 2021]
+Finished job 88.
+119 of 125 steps (95%) done
+[Fri Apr  2 06:49:18 2021]
+Finished job 117.
+120 of 125 steps (96%) done
+[Fri Apr  2 06:49:28 2021]
+Finished job 119.
+121 of 125 steps (97%) done
+[Fri Apr  2 06:49:48 2021]
+Finished job 87.
+122 of 125 steps (98%) done
+[Fri Apr  2 06:53:08 2021]
+Finished job 123.
+123 of 125 steps (98%) done
+[Fri Apr  2 06:54:58 2021]
+Finished job 65.
+124 of 125 steps (99%) done
+
+[Fri Apr  2 06:54:58 2021]
+localrule all:
+    input: results/17069M_R1.lane.1.fastq/17069M_R1.lane.1.fastq.gz, results/17023M_R1.lane.1.fastq/17023M_R1.lane.1.fastq.gz, results/17069M_R2.lane.1.fastq/17069M_R2.lane.1.fastq.gz, results/17305M_R1.lane.2.fastq/17305M_R1.lane.2.fastq.gz, results/17040M_R1.lane.1.fastq/17040M_R1.lane.1.fastq.gz, results/17044M_R1.lane.2.fastq/17044M_R1.lane.2.fastq.gz, results/17031M_R2.lane.3.fastq/17031M_R2.lane.3.fastq.gz, results/17305M_R2.lane.2.fastq/17305M_R2.lane.2.fastq.gz, results/17025M_R2.lane.2.fastq/17025M_R2.lane.2.fastq.gz, results/17031M_R1.lane.3.fastq/17031M_R1.lane.3.fastq.gz, results/17074M_R2.lane.4.fastq/17074M_R2.lane.4.fastq.gz, results/17013M_R2.lane.1.fastq/17013M_R2.lane.1.fastq.gz, results/17066M_R1.lane.2.fastq/17066M_R1.lane.2.fastq.gz, results/17031M_R1.lane.2.fastq/17031M_R1.lane.2.fastq.gz, results/17002M_R1.lane.2.fastq/17002M_R1.lane.2.fastq.gz, results/17036M_R1.lane.1.fastq/17036M_R1.lane.1.fastq.gz, results/17066M_R1.lane.1.fastq/17066M_R1.lane.1.fastq.gz, results/17031M_R2.lane.2.fastq/17031M_R2.lane.2.fastq.gz, results/17292M_R1.lane.2.fastq/17292M_R1.lane.2.fastq.gz, results/17292M_R1.lane.1.fastq/17292M_R1.lane.1.fastq.gz, results/17005M_R1.lane.3.fastq/17005M_R1.lane.3.fastq.gz, results/17040M_R2.lane.1.fastq/17040M_R2.lane.1.fastq.gz, results/17285M_R2.lane.3.fastq/17285M_R2.lane.3.fastq.gz, results/17030M_R2.lane.1.fastq/17030M_R2.lane.1.fastq.gz, results/17025M_R1.lane.1.fastq/17025M_R1.lane.1.fastq.gz, results/17030M_R1.lane.1.fastq/17030M_R1.lane.1.fastq.gz, results/17026M_R1.lane.2.fastq/17026M_R1.lane.2.fastq.gz, results/17005M_R2.lane.2.fastq/17005M_R2.lane.2.fastq.gz, results/17305M_R2.lane.3.fastq/17305M_R2.lane.3.fastq.gz, results/17007M_R2.lane.2.fastq/17007M_R2.lane.2.fastq.gz, results/17036M_R2.lane.3.fastq/17036M_R2.lane.3.fastq.gz, results/17030M_R2.lane.2.fastq/17030M_R2.lane.2.fastq.gz, results/17305M_R1.lane.1.fastq/17305M_R1.lane.1.fastq.gz, results/17031M_R1.lane.1.fastq/17031M_R1.lane.1.fastq.gz, results/17025M_R1.lane.3.fastq/17025M_R1.lane.3.fastq.gz, results/17285M_R1.lane.2.fastq/17285M_R1.lane.2.fastq.gz, results/17030M_R1.lane.2.fastq/17030M_R1.lane.2.fastq.gz, results/17063M_R1.lane.2.fastq/17063M_R1.lane.2.fastq.gz, results/17005M_R2.lane.3.fastq/17005M_R2.lane.3.fastq.gz, results/17285M_R2.lane.1.fastq/17285M_R2.lane.1.fastq.gz, results/17306M_R1.lane.3.fastq/17306M_R1.lane.3.fastq.gz, results/17036M_R1.lane.2.fastq/17036M_R1.lane.2.fastq.gz, results/17013M_R1.lane.1.fastq/17013M_R1.lane.1.fastq.gz, results/17040M_R2.lane.2.fastq/17040M_R2.lane.2.fastq.gz, results/17285M_R1.lane.1.fastq/17285M_R1.lane.1.fastq.gz, results/17011M_R2.lane.3.fastq/17011M_R2.lane.3.fastq.gz, results/17063M_R1.lane.1.fastq/17063M_R1.lane.1.fastq.gz, results/17025M_R2.lane.1.fastq/17025M_R2.lane.1.fastq.gz, results/17306M_R2.lane.3.fastq/17306M_R2.lane.3.fastq.gz, results/17011M_R1.lane.1.fastq/17011M_R1.lane.1.fastq.gz, results/17063M_R2.lane.1.fastq/17063M_R2.lane.1.fastq.gz, results/17074M_R1.lane.2.fastq/17074M_R1.lane.2.fastq.gz, results/17038M_R1.lane.1.fastq/17038M_R1.lane.1.fastq.gz, results/17005M_R1.lane.2.fastq/17005M_R1.lane.2.fastq.gz, results/17007M_R1.lane.4.fastq/17007M_R1.lane.4.fastq.gz, results/17054M_R2.lane.2.fastq/17054M_R2.lane.2.fastq.gz, results/17066M_R2.lane.1.fastq/17066M_R2.lane.1.fastq.gz, results/17044M_R2.lane.1.fastq/17044M_R2.lane.1.fastq.gz, results/17023M_R2.lane.1.fastq/17023M_R2.lane.1.fastq.gz, results/17066M_R1.lane.3.fastq/17066M_R1.lane.3.fastq.gz, results/17066M_R2.lane.2.fastq/17066M_R2.lane.2.fastq.gz, results/17036M_R2.lane.1.fastq/17036M_R2.lane.1.fastq.gz, results/17044M_R1.lane.1.fastq/17044M_R1.lane.1.fastq.gz, results/17054M_R1.lane.2.fastq/17054M_R1.lane.2.fastq.gz, results/17016M_R2.lane.3.fastq/17016M_R2.lane.3.fastq.gz, results/17305M_R2.lane.1.fastq/17305M_R2.lane.1.fastq.gz, results/17025M_R1.lane.2.fastq/17025M_R1.lane.2.fastq.gz, results/17030M_R1.lane.3.fastq/17030M_R1.lane.3.fastq.gz, results/17007M_R1.lane.1.fastq/17007M_R1.lane.1.fastq.gz, results/17054M_R2.lane.1.fastq/17054M_R2.lane.1.fastq.gz, results/17305M_R1.lane.3.fastq/17305M_R1.lane.3.fastq.gz, results/17038M_R2.lane.1.fastq/17038M_R2.lane.1.fastq.gz, results/17005M_R1.lane.1.fastq/17005M_R1.lane.1.fastq.gz, results/17007M_R2.lane.4.fastq/17007M_R2.lane.4.fastq.gz, results/17038M_R1.lane.2.fastq/17038M_R1.lane.2.fastq.gz, results/17026M_R1.lane.1.fastq/17026M_R1.lane.1.fastq.gz, results/17011M_R2.lane.1.fastq/17011M_R2.lane.1.fastq.gz, results/17002M_R2.lane.1.fastq/17002M_R2.lane.1.fastq.gz, results/17285M_R2.lane.2.fastq/17285M_R2.lane.2.fastq.gz, results/17013M_R2.lane.3.fastq/17013M_R2.lane.3.fastq.gz, results/17306M_R1.lane.1.fastq/17306M_R1.lane.1.fastq.gz, results/17074M_R1.lane.4.fastq/17074M_R1.lane.4.fastq.gz, results/17007M_R1.lane.2.fastq/17007M_R1.lane.2.fastq.gz, results/17013M_R1.lane.3.fastq/17013M_R1.lane.3.fastq.gz, results/17005M_R2.lane.1.fastq/17005M_R2.lane.1.fastq.gz, results/17063M_R2.lane.2.fastq/17063M_R2.lane.2.fastq.gz, results/17002M_R2.lane.2.fastq/17002M_R2.lane.2.fastq.gz, results/17069M_R2.lane.2.fastq/17069M_R2.lane.2.fastq.gz, results/17031M_R2.lane.1.fastq/17031M_R2.lane.1.fastq.gz, results/17074M_R2.lane.2.fastq/17074M_R2.lane.2.fastq.gz, results/17011M_R2.lane.2.fastq/17011M_R2.lane.2.fastq.gz, results/17026M_R2.lane.1.fastq/17026M_R2.lane.1.fastq.gz, results/17286M_R1.lane.1.fastq/17286M_R1.lane.1.fastq.gz, results/17054M_R1.lane.1.fastq/17054M_R1.lane.1.fastq.gz, results/17074M_R2.lane.1.fastq/17074M_R2.lane.1.fastq.gz, results/17025M_R2.lane.3.fastq/17025M_R2.lane.3.fastq.gz, results/17286M_R2.lane.2.fastq/17286M_R2.lane.2.fastq.gz, results/17030M_R2.lane.3.fastq/17030M_R2.lane.3.fastq.gz, results/17306M_R1.lane.2.fastq/17306M_R1.lane.2.fastq.gz, results/17044M_R2.lane.2.fastq/17044M_R2.lane.2.fastq.gz, results/17306M_R2.lane.2.fastq/17306M_R2.lane.2.fastq.gz, results/17292M_R2.lane.2.fastq/17292M_R2.lane.2.fastq.gz, results/17036M_R2.lane.2.fastq/17036M_R2.lane.2.fastq.gz, results/17069M_R1.lane.2.fastq/17069M_R1.lane.2.fastq.gz, results/17286M_R2.lane.1.fastq/17286M_R2.lane.1.fastq.gz, results/17038M_R2.lane.2.fastq/17038M_R2.lane.2.fastq.gz, results/17074M_R1.lane.1.fastq/17074M_R1.lane.1.fastq.gz, results/17013M_R1.lane.2.fastq/17013M_R1.lane.2.fastq.gz, results/17011M_R1.lane.2.fastq/17011M_R1.lane.2.fastq.gz, results/17040M_R1.lane.2.fastq/17040M_R1.lane.2.fastq.gz, results/17292M_R2.lane.1.fastq/17292M_R2.lane.1.fastq.gz, results/17023M_R1.lane.2.fastq/17023M_R1.lane.2.fastq.gz, results/17011M_R1.lane.3.fastq/17011M_R1.lane.3.fastq.gz, results/17013M_R2.lane.2.fastq/17013M_R2.lane.2.fastq.gz, results/17066M_R2.lane.3.fastq/17066M_R2.lane.3.fastq.gz, results/17306M_R2.lane.1.fastq/17306M_R2.lane.1.fastq.gz, results/17002M_R1.lane.1.fastq/17002M_R1.lane.1.fastq.gz, results/17036M_R1.lane.3.fastq/17036M_R1.lane.3.fastq.gz, results/17286M_R1.lane.2.fastq/17286M_R1.lane.2.fastq.gz, results/17026M_R2.lane.2.fastq/17026M_R2.lane.2.fastq.gz, results/17007M_R2.lane.1.fastq/17007M_R2.lane.1.fastq.gz, results/17023M_R2.lane.2.fastq/17023M_R2.lane.2.fastq.gz, results/17016M_R1.lane.3.fastq/17016M_R1.lane.3.fastq.gz, results/17285M_R1.lane.3.fastq/17285M_R1.lane.3.fastq.gz
+    jobid: 0
+
+[Fri Apr  2 06:54:58 2021]
+Finished job 0.
+125 of 125 steps (100%) done
+Complete log: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/log/2021-04-02T062001.842057.snakemake.log

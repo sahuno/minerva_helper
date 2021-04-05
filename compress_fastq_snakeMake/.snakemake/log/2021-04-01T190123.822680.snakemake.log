@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 50
+Job counts:
+	count	jobs
+	1	all
+	2	compressfastq
+	3
+
+[Thu Apr  1 19:01:23 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq
+    output: results/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq.gz
+    log: logs/compressfastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq_compressfastq.txt
+    jobid: 2
+    wildcards: samples=SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq
+
+Submitted job 2 with external jobid 'Job <29547736> is submitted to queue <premium>.'.
+
+[Thu Apr  1 19:01:24 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq
+    output: results/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 1
+    wildcards: samples=SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq
+
+Submitted job 1 with external jobid 'Job <29547737> is submitted to queue <premium>.'.
+[Thu Apr  1 19:01:33 2021]
+Error in rule compressfastq:
+    jobid: 2
+    output: results/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq.gz
+    log: logs/compressfastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq_compressfastq.txt (check log file(s) for error message)
+    shell:
+        time buffer -s 100000 -m 10000000 -p 100 gzip < /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq | gzip > results/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq.gz 2> logs/compressfastq/SC173934_GAGTTAGC_L003_R1_001_HQ_paired.lane.3.fastq_compressfastq.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Job <29547736> is submitted to queue <premium>.
+
+Error executing rule compressfastq on cluster (jobid: 2, external: Job <29547736> is submitted to queue <premium>., jobscript: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/tmp.cwrrfq_9/snakejob.compressfastq.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr  1 19:01:33 2021]
+Error in rule compressfastq:
+    jobid: 1
+    output: results/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt (check log file(s) for error message)
+    shell:
+        time buffer -s 100000 -m 10000000 -p 100 gzip < /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq | gzip > results/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq.gz 2> logs/compressfastq/SC173935_ACGCTCGA_L005_R1_001_HQ_paired.lane.5.fastq_compressfastq.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Job <29547737> is submitted to queue <premium>.
+
+Error executing rule compressfastq on cluster (jobid: 1, external: Job <29547737> is submitted to queue <premium>., jobscript: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/tmp.cwrrfq_9/snakejob.compressfastq.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/log/2021-04-01T190123.822680.snakemake.log

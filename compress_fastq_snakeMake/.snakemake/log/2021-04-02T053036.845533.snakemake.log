@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 18 of /sc/arion/projects/canan/toolbox/scripts/compress_fastq/compressFastq.snakefile:
+Missing input files for rule compressfastq:
+/sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Tumor/demuliplexed_fastq/17274T_R2.lane.1.fastq

@@ -1,0 +1,41 @@
+#config.yaml for fastq_to_bam_paired.snakefile
+#Anna Hoge
+#Template made October 18th, 2019
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+#SELECT CORRECT REFERENCE GENOME
+#reference genome for alignment, with index files in same folder as .fa file
+reference_genome:
+    /sc/arion/projects/canan/colon_cancer10312019/hg38_resources/Homo_sapiens_assembly38.fasta
+    #/fh/fast/ha_g/grp/reference/GRCh38/10XG/refdata-GRCh38-2.1.0/fasta/genome.fa
+    #/fh/fast/ha_g/grp/reference/GRCh37/GRCh37.fa
+
+#SELECT CORRECT POLYMORPHIC SITES
+#used for rule build_recalibrator_model
+#these must have .tbi index files, and the chromosome naming must match the reference file
+known_polymorphic_sites1: NULL
+    #/fh/fast/ha_g/grp/reference/GRCh38/known_polymorphic_sites/dbsnp_151_hg38_with_chr.All_20180418.vcf.gz
+    #/fh/fast/ha_g/grp/reference/GRCh37/known_polymorphic_sites/dbsnp_151_hg19_with_chr.All_20180423.vcf.gz
+known_polymorphic_sites2: NULL
+    #/fh/fast/ha_g/grp/reference/GRCh38/known_polymorphic_sites/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
+    #/fh/fast/ha_g/grp/reference/GRCh37/known_polymorphic_sites/Mills_and_1000G_gold_standard_with_chr.indels.b37.vcf.gz
+
+#SELECT IF DATA IS WHOLE GENOME SEQUENCES OR NOT (True or False)
+#determines if rule get_wgs_metrics is run
+is_wgs: True
+
+#SELECT CORRECT BASE RECALIBRATOR GAP OPEN PENALTY
+#GATK recommends 40 for exomes and 30 for whole genomes
+base_recalibrator_gap_open_penalty: 30.0
+
+#can adjust the number of threads used for bwa based on the data
+#suggested this matches cluster_slurm.yaml ncpus for map_to_reference rule
+bwa_threads: 4
+
+#tools used.  need to be module loaded first.  see snakemake file for loads
+bwa: bwa
+samtools: samtools
+java: java
+gatk: gatk
+picard_jar: java -jar $PICARD

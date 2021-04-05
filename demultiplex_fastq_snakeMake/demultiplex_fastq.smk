@@ -24,16 +24,16 @@ rule demultiplex_fastq:
         "logs/demultiplex_fastq/{samples}_demultiplexed_fastq.txt"
     shell:
         """
-       zcat {input.fastq1} | 
+        zcat {input.fastq1} |
         awk -v sname="{wildcards.samples}" '
-            BEGIN {FS = ":"} 
-            {
-                lane=$4;
+            BEGIN {{FS = ":"}} 
+            {{
+                lane=${{4}};
                 fileName = sname".lane."lane".fastq" 
                 print > fileName
-                for (i = 1; i <= 3; i++) {
+                for (i = 1; i <= 3; i++) {{
                     getline
                     print > fileName
-                }
-            }' 2> {log}
+                }}
+            }}' 2> {log}
         """

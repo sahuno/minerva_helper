@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 50
+Job counts:
+	count	jobs
+	1	all
+	1	compressfastq
+	2
+
+[Thu Apr  1 20:16:25 2021]
+rule compressfastq:
+    input: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq
+    output: results/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq_compressfastq.txt
+    jobid: 1
+    wildcards: samples=SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq
+
+Submitted job 1 with external jobid 'Job <29547994> is submitted to queue <premium>.'.
+[Thu Apr  1 20:41:36 2021]
+Error in rule compressfastq:
+    jobid: 1
+    output: results/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq.gz
+    log: logs/compressfastq/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq_compressfastq.txt (check log file(s) for error message)
+    shell:
+        parallel --gnu gzip ::: /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_EarlyOnset/Mucose/demultiplex_fastqs/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq 2> logs/compressfastq/SC173908_ATAGCGAC_L005_R2_001_HQ_paired.lane.5.fastq_compressfastq.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Job <29547994> is submitted to queue <premium>.
+
+Error executing rule compressfastq on cluster (jobid: 1, external: Job <29547994> is submitted to queue <premium>., jobscript: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/tmp.gezf112n/snakejob.compressfastq.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /sc/arion/projects/canan/toolbox/scripts/compress_fastq/.snakemake/log/2021-04-01T201625.155312.snakemake.log

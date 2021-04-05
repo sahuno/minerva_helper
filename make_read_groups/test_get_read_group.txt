@@ -1,0 +1,4 @@
+ Sample_name  	  Read_R1_or_R2  	  Platform_Unit_PU  	  Read_Group_ID_RGID  	  Library_LB  	  Lane  	  File_path_on_drive  	  Index_seq
+17002T  	  1  	  A00740.64.HNWNYDSXX.1.ACAAGCTA+GAATTCTC  	  A00740.64.HNWNYDSXX.1  	  17002T.ACAAGCTA+GAATTCTC  	  1  	  /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Tumor/test_create_read_grp/17002T_R1.fastq.gz  	  ACAAGCTA+GAATTCTC
+17002T  	  1  	  A00740.64.HNWNYDSXX.1.ACAAGCTA+GAATTCTC  	  A00740.64.HNWNYDSXX.1  	  17002T.ACAAGCTA+GAATTCTC  	  1  	  /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Tumor/test_create_read_grp/17002T_R1.lane.1.fastq.gz  	  ACAAGCTA+GAATTCTC
+17002T  	  2  	  A00740.64.HNWNYDSXX.1.ACAAGCTA+GAATTCTC  	  A00740.64.HNWNYDSXX.1  	  17002T.ACAAGCTA+GAATTCTC  	  1  	  /sc/arion/projects/canan/data_ahuno/CRC_PR_03192021/fastq/DrMarciaCruz_WES_CRC_LateOnset/Tumor/test_create_read_grp/17002T_R2.fastq.gz  	  ACAAGCTA+GAATTCTC
