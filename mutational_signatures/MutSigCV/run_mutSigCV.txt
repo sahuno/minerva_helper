@@ -1,13 +1,7 @@
-#MutsigCV is a software for identifying recurrently mutated genes in your cohort, what we call driver mutations.
-Original program was written in matlab and uses matlab libraries
-
-
-
-##please adapt the code below
-
 #!/bin/bash
 
-##mutsigcv col; March 10th 2021 by Samuel Ahuno
+##MutSigCV; March 10th 2021 by Samuel Ahuno
+#Author; Samuel Ahuno
 
 #BSUB -J "mutsig_projectA" ##job name
 #BSUB -P project_Acc_Name
@@ -22,9 +16,9 @@ Original program was written in matlab and uses matlab libraries
 
 module load mutsig matlab/R2016b
 
-MutSigCV df.merged.colon.mafs.all.withIntrons.sorted.hg19.4mutsig.mutSig.sorted.maf \
+MutSigCV /path/to/maf_file_in_hg19_format.maf \
 /hpc/users/ahunos01/apps/MutSigCV_1.41/exdata/exome_full192.coverage.txt \
 /hpc/users/ahunos01/apps/MutSigCV_1.41/exdata/gene.covariates.txt \
-colon_mustig /hpc/users/ahunos01/apps/MutSigCV_1.41/exdata/mutation_type_dictionary_file.txt \
+basename_of_output_file /hpc/users/ahunos01/apps/MutSigCV_1.41/exdata/mutation_type_dictionary_file.txt \
 /hpc/users/ahunos01/apps/MutSigCV_1.41/exdata/chr_files_hg19
 
