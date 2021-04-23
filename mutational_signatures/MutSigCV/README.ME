@@ -1,10 +1,11 @@
 #MutSigCV is a software for identifying recurrently mutated genes in your cohort, what we call driver mutations.
 #Original program was written in matlab and uses matlab libraries, use the job submission script to run your script
 
-
+#dowload alll resource files (gene covariates, dictionary and ref files) needed to run from the broad institite website (login required, create free account) 
+https://software.broadinstitute.org/cancer/cga/mutsig_run
 
 #steps
-Step 1; ssh into into intereactive mode, MutSigCV can be memory intensive or run as job using the script
+Step 1; MutSigCV can be memory intensive, ssh into into intereactive mode (see below) or run as job using the script `run_mutSigCV.sh`
 $ bsub -P acc_polakp02a -q interactive -n 4 -R rusage[mem=8000] -W 2:00 -Ip /bin/bash
 
 Step 2; Please load modules before running
