@@ -9,7 +9,7 @@
 snakemake -s compressFastq.snakefile --latency-wait 60 --restart-times 2 --keep-going --cluster-config config/cluster_slurm.yaml --cluster "sbatch -p {cluster.partition} --mem={cluster.mem} -t {cluster.time} -c {cluster.ncpus} -n {cluster.ntasks} -o {cluster.output}" -j 100 -np
 """
 
-configfile: "config/path_to_LateOnset_Mucose_Fastq2compress.yaml"
+configfile: "config/samples.yaml"
 
 rule all:
     input:
